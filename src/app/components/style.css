@@ -1,0 +1,18 @@
+
+.container{
+  display: flex;
+}
+
+section.container {
+  flex-direction: column;
+}
+
+.container > div {
+  display: flex;
+}
+
+.container > div > div {
+  outline: solid 1px #666;
+  padding: 4px;
+  width: 33%;
+}
